@@ -1,6 +1,6 @@
 {
-    "name": "react-text-loop",
-    "version": "2.3.0",
+    "name": "@jcdea/react-text-loop",
+    "version": "2.3.1",
     "description": "Create an animated loop of a list of text for your headings",
     "main": "./lib/index.js",
     "module": "es/index.js",
@@ -49,9 +49,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/braposo/react-text-loop/issues"
+        "url": "https://github.com/JcdeA/react-text-loop/issues"
     },
-    "homepage": "https://github.com/braposo/react-text-loop#readme",
+    "homepage": "https://github.com/JcdeA/react-text-loop#readme",
     "devDependencies": {
         "@babel/cli": "^7.7.5",
         "@babel/core": "^7.7.5",

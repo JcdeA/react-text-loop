@@ -26,8 +26,8 @@ type Props = {
 };
 
 type State = {
-    elements: (JSX.Element | string | undefined)[];
-    currentEl: JSX.Element | string | undefined;
+    elements: (JSX.Element | string | number | {} | undefined)[];
+    currentEl: JSX.Element | string | number | {} | undefined;
     currentWordIndex: number;
     wordCount: number;
     currentInterval: number;
@@ -64,7 +64,7 @@ class TextLoop extends React.PureComponent<Props, State> {
             currentInterval: Array.isArray(props.interval)
                 ? props.interval[0]
                 : props.interval,
-        };
+        } as State;
     }
 
     componentDidMount(): void {
